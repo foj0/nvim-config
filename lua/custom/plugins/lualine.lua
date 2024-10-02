@@ -3,7 +3,7 @@ return {
   config = function()
     require('lualine').setup {
       options = {
-        theme = 'gruvbox-material', --sonokai, onedark, gruvbox_dark, gruvbox_light, gruvbox, gruvbox-material, dracula, or auto to match any theme
+        theme = 'auto', --sonokai, onedark, gruvbox_dark, gruvbox_light, gruvbox, gruvbox-material, dracula, or auto to match any theme
       },
     }
   end,

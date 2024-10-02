@@ -77,7 +77,7 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
 
 -- Show which line your cursor is on
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 
 -- Fat insert cursor. Comment out to revert to default thin insert cursor.
 vim.opt.guicursor = ''
@@ -87,5 +87,8 @@ vim.opt.scrolloff = 10
 
 -- disable line wrapping
 vim.opt.wrap = false
+
+-- show column 80 colored to help align code
+vim.opt.colorcolumn = '80'
 
 -- vim: ts=2 sts=2 sw=2 et

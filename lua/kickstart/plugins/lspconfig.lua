@@ -35,6 +35,8 @@ return {
       --  - Symbol Search
       --  - and more!
       --
+      require('lspconfig').clangd.setup {}
+
       -- Thus, Language Servers are external tools that must be installed separately from
       -- Neovim. This is where `mason` and related plugins come into play.
       --

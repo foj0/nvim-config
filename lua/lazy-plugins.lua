@@ -49,11 +49,15 @@ require('lazy').setup({
   require 'custom/plugins/lualine',
 
   -- colorschemes
+  require 'custom/plugins/colors',
+  -- ColorMyPencils function call in init.lua to set default theme
+  --
+  -- require 'custom/plugins/gruvbox-material',
   -- require 'custom/plugins/sonokai',
   -- require 'custom/plugins/catppuccin',
   -- require 'kickstart/plugins/tokyonight',
   -- require 'custom/plugins/gruvbox',
-  require 'custom/plugins/gruvbox-material',
+  -- require 'custom/plugins/rosepine.lua',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
