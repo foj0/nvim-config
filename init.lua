@@ -20,6 +20,7 @@
 
     We provide a keymap "<space>sh" to [s]earch the [h]elp documentation,
     which is very useful when you're not exactly sure of what you're looking for.
+filetype plugin off
 
 -- [[ Setting options ]]
 require 'options'

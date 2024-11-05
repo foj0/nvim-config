@@ -37,6 +37,7 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+vim.o.autoindent = true -- Added this to see if it fixes with js
 
 vim.smartindent = true
 
