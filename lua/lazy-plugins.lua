@@ -48,6 +48,8 @@ require('lazy').setup({
 
   require 'custom/plugins/lualine',
 
+  require 'custom/plugins/ts-autotag',
+
   -- colorschemes
   require 'custom/plugins/colors',
   -- ColorMyPencils function call in init.lua to set default theme
